@@ -16,6 +16,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { Restaurant } from '../types';
 import { useRestaurants } from '../context/RestaurantContext';
 import { theme, GRADIENT_PRESETS, RESTAURANT_BANNER_PRESETS } from '../theme/colors';
+import { ImageUploader } from './ImageUploader';
 
 interface RestaurantModalProps {
   visible: boolean;
@@ -494,44 +495,27 @@ export const RestaurantModal: React.FC<RestaurantModalProps> = ({
               </View>
             </View>
 
-            {/* Section 6: Images & Media */}
-            <Text style={styles.sectionHeader}>6. Images & Media</Text>
+            {/* Section 6: Upload Images & Media */}
+            <Text style={styles.sectionHeader}>6. Upload Images & Media</Text>
 
-            <View style={styles.inputGroup}>
-              <Text style={styles.inputLabel}>Featured Logo / Avatar Image URL</Text>
-              <TextInput
-                style={styles.input}
-                value={featuredImage}
-                onChangeText={setFeaturedImage}
-                placeholder="https://..."
-                placeholderTextColor={theme.colors.textMuted}
-              />
-            </View>
+            <ImageUploader
+              label="Featured Logo / Avatar Image"
+              hint="Upload square brand logo or dish icon"
+              value={featuredImage}
+              onChangeImage={setFeaturedImage}
+              aspectRatio={[1, 1]}
+              previewHeight={140}
+            />
 
-            <View style={styles.inputGroup}>
-              <Text style={styles.inputLabel}>Banner Cover Image URL</Text>
-              <TextInput
-                style={styles.input}
-                value={bannerImage}
-                onChangeText={setBannerImage}
-                placeholder="https://..."
-                placeholderTextColor={theme.colors.textMuted}
-              />
-            </View>
-
-            {/* Banner Presets */}
-            <Text style={styles.subHint}>Quick Banner Presets:</Text>
-            <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.bannerPresetsRow}>
-              {RESTAURANT_BANNER_PRESETS.map((bp, i) => (
-                <TouchableOpacity
-                  key={i}
-                  style={styles.bannerPresetChip}
-                  onPress={() => setBannerImage(bp.url)}
-                >
-                  <Text style={styles.bannerPresetText}>{bp.label}</Text>
-                </TouchableOpacity>
-              ))}
-            </ScrollView>
+            <ImageUploader
+              label="Banner Cover Image"
+              hint="Upload wide cover photo displayed on restaurant card"
+              value={bannerImage}
+              onChangeImage={setBannerImage}
+              aspectRatio={[16, 9]}
+              presets={RESTAURANT_BANNER_PRESETS}
+              previewHeight={160}
+            />
 
             {/* Live Media Preview */}
             <View style={styles.previewBox}>

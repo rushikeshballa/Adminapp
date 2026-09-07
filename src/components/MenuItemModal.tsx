@@ -16,6 +16,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { MenuItem } from '../types';
 import { useRestaurants } from '../context/RestaurantContext';
 import { theme, FOOD_IMAGE_PRESETS } from '../theme/colors';
+import { ImageUploader } from './ImageUploader';
 
 interface MenuItemModalProps {
   visible: boolean;
@@ -419,40 +420,17 @@ export const MenuItemModal: React.FC<MenuItemModalProps> = ({
               </View>
             )}
 
-            {/* Section 5: Photo & Presets */}
+            {/* Section 5: Dish Photo */}
             <Text style={styles.sectionHeader}>5. Dish Photo</Text>
-            <View style={styles.inputGroup}>
-              <Text style={styles.inputLabel}>Image URL</Text>
-              <TextInput
-                style={styles.input}
-                value={image}
-                onChangeText={setImage}
-                placeholder="https://..."
-                placeholderTextColor={theme.colors.textMuted}
-              />
-            </View>
-
-            {/* Quick Food Presets */}
-            <Text style={styles.subHint}>Pick from Food Presets:</Text>
-            <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.foodPresetsRow}>
-              {FOOD_IMAGE_PRESETS.map((fp, i) => (
-                <TouchableOpacity
-                  key={i}
-                  style={styles.foodPresetChip}
-                  onPress={() => setImage(fp.url)}
-                >
-                  <Text style={styles.foodPresetText}>{fp.label}</Text>
-                </TouchableOpacity>
-              ))}
-            </ScrollView>
-
-            {/* Live Image Preview */}
-            <View style={styles.imagePreviewBox}>
-              <Text style={styles.imagePreviewLabel}>Live Image Preview:</Text>
-              <View style={styles.imagePreviewFrame}>
-                <Image source={{ uri: image }} style={styles.previewImg} resizeMode="cover" />
-              </View>
-            </View>
+            <ImageUploader
+              label="Upload Dish Image"
+              hint="Upload high-res photo from device or use camera / presets"
+              value={image}
+              onChangeImage={setImage}
+              aspectRatio={[4, 3]}
+              presets={FOOD_IMAGE_PRESETS}
+              previewHeight={180}
+            />
           </ScrollView>
 
           {/* Footer Actions */}

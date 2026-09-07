@@ -307,3 +307,82 @@
 {"_e":"devserver:start","_t":1788754865435,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
 {"_e":"metro:config","_t":1788754899592,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
 {"_e":"expo:dev-tools-plugin:load","_t":1788754906379,"plugins":[]}
+{"_e":"metro:instantiate","_t":1788754925189,"atlas":false,"workers":3,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1788754926857,"id":"1","platform":"web","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1788754926858,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788754926867,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788754926971,"id":"1","progress":0.009070294784580497,"total":21,"current":2}
+{"_e":"metro:bundling:progress","_t":1788754927070,"id":"1","progress":0.06859410430839002,"total":42,"current":11}
+{"_e":"metro:bundling:progress","_t":1788754927171,"id":"1","progress":0.1162190082644628,"total":44,"current":15}
+{"_e":"metro:bundling:progress","_t":1788754927202,"id":"1","progress":0.1322314049586777,"total":44,"current":16}
+{"_e":"metro:bundling:progress","_t":1788754927312,"id":"1","progress":0.15765570934256054,"total":68,"current":27}
+{"_e":"metro:bundling:progress","_t":1788754927429,"id":"1","progress":0.1695501730103806,"total":68,"current":28}
+{"_e":"metro:bundling:progress","_t":1788754927470,"id":"1","progress":0.18187716262975778,"total":68,"current":29}
+{"_e":"metro:bundling:progress","_t":1788754927576,"id":"1","progress":0.18187716262975778,"total":98,"current":38}
+{"_e":"metro:bundling:progress","_t":1788754927689,"id":"1","progress":0.18187716262975778,"total":112,"current":43}
+{"_e":"metro:bundling:progress","_t":1788754927795,"id":"1","progress":0.18187716262975778,"total":115,"current":43}
+{"_e":"metro:bundling:progress","_t":1788754927827,"id":"1","progress":0.18187716262975778,"total":115,"current":44}
+{"_e":"metro:bundling:progress","_t":1788754927928,"id":"1","progress":0.18187716262975778,"total":148,"current":60}
+{"_e":"metro:bundling:progress","_t":1788754928029,"id":"1","progress":0.20464852607709752,"total":168,"current":76}
+{"_e":"metro:bundling:progress","_t":1788754928152,"id":"1","progress":0.23889029162984468,"total":178,"current":87}
+{"_e":"metro:bundling:progress","_t":1788754928253,"id":"1","progress":0.2444135841434162,"total":178,"current":88}
+{"_e":"metro:bundling:progress","_t":1788754928353,"id":"1","progress":0.5953258264835476,"total":197,"current":152}
+{"_e":"metro:bundling:progress","_t":1788754928454,"id":"1","progress":0.6400000000000001,"total":200,"current":160}
+{"_e":"metro:bundling:progress","_t":1788754928562,"id":"1","progress":0.6795105916727538,"total":222,"current":183}
+{"_e":"metro:bundling:progress","_t":1788754928668,"id":"1","progress":0.6795105916727538,"total":254,"current":189}
+{"_e":"metro:bundling:progress","_t":1788754928773,"id":"1","progress":0.6795105916727538,"total":258,"current":200}
+{"_e":"metro:bundling:progress","_t":1788754928872,"id":"1","progress":0.6795105916727538,"total":284,"current":231}
+{"_e":"metro:bundling:progress","_t":1788754928974,"id":"1","progress":0.7627867262607522,"total":308,"current":269}
+{"_e":"metro:bundling:progress","_t":1788754929074,"id":"1","progress":0.7969927056692773,"total":317,"current":283}
+{"_e":"metro:bundling:progress","_t":1788754929184,"id":"1","progress":0.8831470460153868,"total":332,"current":312}
+{"_e":"metro:bundling:progress","_t":1788754929284,"id":"1","progress":0.9057415418388429,"total":352,"current":335}
+{"_e":"metro:bundling:progress","_t":1788754929384,"id":"1","progress":0.9168198123731032,"total":353,"current":338}
+{"_e":"metro:bundling:progress","_t":1788754929487,"id":"1","progress":0.994358262312873,"total":354,"current":353}
+{"_e":"metro:bundling:progress","_t":1788754929563,"id":"1","progress":0.999,"total":354,"current":354}
+{"_e":"metro:bundling:progress","_t":1788754929676,"id":"1","progress":0.999,"total":356,"current":356}
+{"_e":"metro:bundling:done","_t":1788754929817,"id":"1","total":356,"ms":2959.5018}
+{"_e":"metro:client_log","_t":1788754930218,"level":"info","data":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"]}
+{"_e":"metro:client_log","_t":1788754930219,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1788754930219,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1788755182449,"level":"warn","data":["Cannot record touch end without a touch start.\n","Touch End: {\"identifier\":0,\"pageX\":804,\"pageY\":321,\"timestamp\":256055.3999999985}\n","Touch Bank: []"]}
+{"_e":"metro:bundling:started","_t":1788755185325,"id":"5","platform":"web","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:started","_t":1788755246186,"id":"6","platform":"web","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1788755246186,"id":"6","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1788755246233,"id":"6","total":1,"ms":47.1524}
+{"_e":"metro:bundling:started","_t":1788755246700,"id":"8","platform":"web","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:client_log","_t":1788755246856,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1788755246856,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:bundling:started","_t":1788755279590,"id":"b","platform":"android","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1788755279590,"id":"b","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788755279622,"id":"b","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788755279688,"id":"b","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788755279788,"id":"b","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788755279892,"id":"b","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788755280032,"id":"b","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788755280195,"id":"b","progress":0.0017954610744039068,"total":118,"current":5}
+{"_e":"metro:bundling:progress","_t":1788755280295,"id":"b","progress":0.025869235659445447,"total":143,"current":23}
+{"_e":"metro:bundling:progress","_t":1788755280396,"id":"b","progress":0.048303345006641706,"total":182,"current":40}
+{"_e":"metro:bundling:progress","_t":1788755280496,"id":"b","progress":0.12379972565157751,"total":216,"current":76}
+{"_e":"metro:bundling:progress","_t":1788755280597,"id":"b","progress":0.24224853515625,"total":256,"current":126}
+{"_e":"metro:bundling:progress","_t":1788755280697,"id":"b","progress":0.27355652700831024,"total":304,"current":159}
+{"_e":"metro:bundling:progress","_t":1788755280797,"id":"b","progress":0.3300135808057945,"total":376,"current":216}
+{"_e":"metro:bundling:progress","_t":1788755280897,"id":"b","progress":0.357860331632653,"total":448,"current":268}
+{"_e":"metro:bundling:progress","_t":1788755280998,"id":"b","progress":0.357860331632653,"total":507,"current":283}
+{"_e":"metro:bundling:progress","_t":1788755281097,"id":"b","progress":0.4325135946757569,"total":555,"current":365}
+{"_e":"metro:bundling:progress","_t":1788755281197,"id":"b","progress":0.6433376736111112,"total":576,"current":462}
+{"_e":"metro:bundling:progress","_t":1788755281297,"id":"b","progress":0.701972242512783,"total":592,"current":496}
+{"_e":"metro:bundling:progress","_t":1788755281397,"id":"b","progress":0.81,"total":630,"current":567}
+{"_e":"metro:bundling:progress","_t":1788755281497,"id":"b","progress":0.81,"total":673,"current":604}
+{"_e":"metro:bundling:progress","_t":1788755281597,"id":"b","progress":0.8180143429297037,"total":743,"current":672}
+{"_e":"metro:bundling:progress","_t":1788755281697,"id":"b","progress":0.8745039457237976,"total":771,"current":721}
+{"_e":"metro:bundling:progress","_t":1788755281925,"id":"b","progress":0.8745039457237976,"total":771,"current":721}
+{"_e":"metro:bundling:progress","_t":1788755281926,"id":"b","progress":0.8822403167544687,"total":774,"current":727}
+{"_e":"metro:bundling:progress","_t":1788755282046,"id":"b","progress":0.9244612674489694,"total":779,"current":749}
+{"_e":"metro:bundling:progress","_t":1788755282148,"id":"b","progress":0.9244612674489694,"total":779,"current":749}
+{"_e":"metro:bundling:progress","_t":1788755282248,"id":"b","progress":0.9244612674489694,"total":779,"current":749}
+{"_e":"metro:bundling:progress","_t":1788755282349,"id":"b","progress":0.9244612674489694,"total":779,"current":749}
+{"_e":"metro:bundling:progress","_t":1788755282448,"id":"b","progress":0.9555062500000001,"total":800,"current":782}
+{"_e":"metro:bundling:progress","_t":1788755282548,"id":"b","progress":0.9900374220114994,"total":801,"current":797}
+{"_e":"metro:bundling:progress","_t":1788755282662,"id":"b","progress":0.999,"total":811,"current":811}
+{"_e":"metro:bundling:done","_t":1788755282789,"id":"b","total":811,"ms":3199.0561}
+{"_e":"metro:client_log","_t":1788755286954,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
