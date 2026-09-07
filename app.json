@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Restaurant Admin",
+    "slug": "restaurant-admin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0F19"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
