@@ -386,3 +386,30 @@
 {"_e":"metro:bundling:progress","_t":1788755282662,"id":"b","progress":0.999,"total":811,"current":811}
 {"_e":"metro:bundling:done","_t":1788755282789,"id":"b","total":811,"ms":3199.0561}
 {"_e":"metro:client_log","_t":1788755286954,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:bundling:started","_t":1788756131549,"id":"f","platform":"android","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1788756131549,"id":"f","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788756131550,"id":"f","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788756131717,"id":"f","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788756132176,"id":"f","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788756132276,"id":"f","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788756132376,"id":"f","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788756132476,"id":"f","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788756132576,"id":"f","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788756132686,"id":"f","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1788756132793,"id":"f","total":1,"ms":1244.5781}
+{"_e":"metro:client_log","_t":1788756135514,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:bundling:started","_t":1788756156028,"id":"h","platform":"web","environment":null,"entry":"src\\components\\MenuItemModal.tsx"}
+{"_e":"metro:bundling:started","_t":1788756164647,"id":"i","platform":"web","environment":null,"entry":"src\\components\\ImageUploader.tsx"}
+{"_e":"metro:bundling:started","_t":1788756164648,"id":"j","platform":"web","environment":null,"entry":"src\\utils\\imagePicker.ts"}
+{"_e":"metro:bundling:started","_t":1788756164650,"id":"k","platform":"web","environment":null,"entry":"node_modules\\expo-image-picker\\src\\ImagePicker.ts"}
+{"_e":"metro:bundling:started","_t":1788756164651,"id":"l","platform":"web","environment":null,"entry":"node_modules\\expo\\src\\Expo.ts"}
+{"_e":"metro:bundling:started","_t":1788756164653,"id":"m","platform":"web","environment":null,"entry":"node_modules\\expo\\src\\errors\\ExpoErrorManager.ts"}
+{"_e":"metro:bundling:started","_t":1788756164664,"id":"n","platform":"web","environment":null,"entry":"node_modules\\expo\\src\\environment\\ExpoGo.web.ts"}
+{"_e":"metro:bundling:started","_t":1788756164850,"id":"o","platform":"web","environment":null,"entry":"node_modules\\expo\\src\\hooks\\useEvent.ts"}
+{"_e":"metro:bundling:started","_t":1788756164855,"id":"p","platform":"web","environment":null,"entry":"node_modules\\expo-image-picker\\src\\ExponentImagePicker.web.ts"}
+{"_e":"metro:bundling:started","_t":1788756164857,"id":"q","platform":"web","environment":null,"entry":"node_modules\\expo-image-picker\\src\\ImagePicker.types.ts"}
+{"_e":"metro:bundling:started","_t":1788756164859,"id":"r","platform":"web","environment":null,"entry":"node_modules\\expo-image-picker\\src\\utils.ts"}
+{"_e":"metro:bundling:started","_t":1788756164862,"id":"s","platform":"web","environment":null,"entry":"src\\components\\MenuItemModal.tsx"}
+{"_e":"metro:bundling:started","_t":1788756168916,"id":"t","platform":"web","environment":null,"entry":"src\\components\\RestaurantModal.tsx"}
+{"_e":"metro:bundling:started","_t":1788756178301,"id":"u","platform":"web","environment":null,"entry":"src\\components\\RestaurantModal.tsx"}
+{"_e":"metro:bundling:started","_t":1788756202951,"id":"v","platform":"web","environment":null,"entry":"src\\components\\ImageUploader.tsx"}
